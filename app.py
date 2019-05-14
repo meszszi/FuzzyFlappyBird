@@ -40,11 +40,7 @@ if __name__ == '__main__':
 
         if not game_over:
 
-
-
-
             if not manual:
-
                 if pressed[pygame.K_UP]:
                     game.ball.v_speed -= 0.2
 
@@ -62,7 +58,6 @@ if __name__ == '__main__':
                     boosters = 0
 
             game.make_step(boosters)
-
             screen.fill((0, 0, 0))
             game.draw(screen, booster=boosters)
 
