@@ -1,10 +1,12 @@
 # Fuzzy Flappy Bird
 ## Simple python game inspired by flappy bird with fuzzy logic based AI
 
+Run the game with 'python3 app.py' command.
+
 This small project is supposed to present basic fuzzy logic concepts. Controller takes three input values:
 
         - current ball's speed
-        - position of next gap's center height relative to ball's position
+        - height of next gap's center relative to ball's position
         - distance to the next wall
 
 and outputs the value of ball's booster that enables the ball to travel safely through the gaps.
